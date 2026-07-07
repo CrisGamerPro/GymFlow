@@ -1,0 +1,21 @@
+{
+  "name": "GymFlow – Rutinas de Gym",
+  "short_name": "GymFlow",
+  "description": "Crea y gestiona tus rutinas de entrenamiento",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#111113",
+  "theme_color": "#111113",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nueva Rutina",
+      "description": "Crear una rutina nueva",
+      "url": "./?new=1"
+    }
+  ]
+}
